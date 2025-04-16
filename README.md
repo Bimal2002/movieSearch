@@ -107,7 +107,6 @@ Then, run this command every time you update your native dependencies:
 bundle exec pod install
 ```
 
-For more information, visit the [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
 ```bash
 # Using npm
@@ -150,25 +149,6 @@ module.exports = {
 ### Favorite Movies Screen
 ![Favorites](assets/favorites.png)
 
-**How to add these screenshots:**
-
-1. Create an assets folder in your project root:
-   ```bash
-   mkdir assets
-   ```
-
-2. Capture screenshots from your app:
-   - On Android: Use Android Studio or device's screenshot feature
-   - On iOS: Use Xcode simulator or physical device's screenshot buttons
-
-3. Add the screenshots to your repository:
-   ```bash
-   git add assets/
-   git commit -m "Add app screenshots"
-   git push origin main
-   ```
-
-4. Update the README.md with the screenshot links as shown above
 
 ---
 
@@ -193,5 +173,3 @@ npx react-native start --reset-cache
 - If you face issues with **CocoaPods** on iOS, ensure all dependencies are installed and updated.
 
 ---
-
-Feel free to reach out if you have any questions or encounter issues!
